@@ -1,68 +1,33 @@
 [
     {
-      "name": "pnp-sp-dev-teams-sample-microsoft-teams-apps-associate-insights",
-      "reponame": "microsoft-teams-apps-associate-insights",
-      "source": "pnp",
-      "title": "Associate Insights App Template",
+      "name": "sample-microsoftgraph-aspnetcore-webhooks-sample",
+      "reponame": "aspnetcore-webhooks-sample",
+      "source": "microsoft",
+      "title": "Microsoft Graph Change Notifications Sample for ASP.NET Core",
       "shortDescription": "Associate insights is a Power Apps template that empowers firstline workers to directly capture and submit customer opinion, sentiment, and perception.",
-      "url": "https://github.com/OfficeDev/microsoft-teams-apps-associateinsights",
+      "url": "https://github.com/microsoftgraph/aspnetcore-webhooks-sample",
       "longDescription": [
         "Associate insights is a Power Apps template that empowers firstline workers to directly capture and submit customer opinion, sentiment, and perception."
       ],
-      "creationDateTime": "2020-04-30",
-      "updateDateTime": "2020-04-30",
+      "creationDateTime": "2019-09-09",
+      "updateDateTime": "2020-04-29",
       "products": [
-        "Teams",
-        "Office"
+        "Microsoft Graph"
       ],
       "metadata": [
-        {
-          "key": "TEAMS-SAMPLE-SOURCE",
-          "value": "appTemplate"
-        },
-        {
-          "key": "TEAMS-SAMPLE-TYPE",
-          "value": "apptemplate"
-        },
-        {
-          "key": "TEAMS-CLIENT-LANGUAGE",
-          "value": "powerapps"
-        },
-        {
-          "key": "TEAMS-CLIENT-PLATFORM",
-          "value": "powerapps"
-        },
-        {
-          "key": "TEAMS-CLIENT-UI",
-          "value": ""
-        },
-        {
-          "key": "TEAMS-SERVER-LANGUAGE",
-          "value": ""
-        },
-        {
-          "key": "TEAMS-SERVER-PLATFORM",
-          "value": ""
-        },
-        {
-          "key": "TEAMS-BOT-FRAMEWORK",
-          "value": ""
-        },
-        {
-          "key": "TEAMS-FEATURES",
-          "value": "tab"
-        },
-        {
-          "key": "TEAMS-GENERATOR",
-          "value": ""
-        }
       ],
       "thumbnails": [
         {
           "type": "image",
           "order": 100,
-          "url": "https://docs.microsoft.com/en-us/microsoftteams/platform/assets/images/associate-insights-app.png",
-          "alt": "Associate Insights App Template"
+          "url": "https://raw.githubusercontent.com/microsoftgraph/aspnetcore-webhooks-sample/main/images/user-inbox-notifications.png",
+          "alt": "Use delegated authentication to subscribe to a user's inbox"
+        },
+        {
+          "type": "image",
+          "order": 200,
+          "url": "https://raw.githubusercontent.com/microsoftgraph/aspnetcore-webhooks-sample/main/images/teams-channel-notifications.png",
+          "alt": "Use app-only authentication to subscribe to Teams channel messages"
         }
       ],
       "authors": [
