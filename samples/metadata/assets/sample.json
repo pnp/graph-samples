@@ -4,12 +4,13 @@
       "reponame": "aspnetcore-webhooks-sample",
       "source": "microsoft",
       "title": "Microsoft Graph Change Notifications Sample for ASP.NET Core",
-      "shortDescription": "Associate insights is a Power Apps template that empowers firstline workers to directly capture and submit customer opinion, sentiment, and perception.",
+      "shortDescription": "Subscribe for Microsoft Graph change notifications to be notified when your user's data changes, so you don't have to poll for changes.",
       "url": "https://github.com/microsoftgraph/aspnetcore-webhooks-sample",
       "longDescription": [
-        "Associate insights is a Power Apps template that empowers firstline workers to directly capture and submit customer opinion, sentiment, and perception."
+        "Subscribe for Microsoft Graph change notifications to be notified when your user's data changes, so you don't have to poll for changes.",
+        "This sample ASP.NET Core web application shows how to subscribe for change notifications as well as how to validate and decrypt change notifications with resource data when supported by the resource."
       ],
-      "creationDateTime": "2019-09-09",
+      "creationDateTime": "2017-03-03",
       "updateDateTime": "2020-04-29",
       "products": [
         "Microsoft Graph"
@@ -41,25 +42,103 @@
       ],
       "references": [
         {
-          "name": "Teams JavaScript SDK",
-          "url": "https://aka.ms/sample-ref-teams-javascript-sdk"
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
         },
         {
-          "name": "Teams developer questions",
-          "url": "https://aka.ms/sample-ref-teams-dev-questions"
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
         },
         {
-          "name": "Teams development videos from Microsoft",
-          "url": "https://aka.ms/sample-ref-teams-vids-from-microsoft"
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
         },
         {
-          "name": "Teams development videos from the community",
-          "url": "https://aka.ms/sample-ref-teams-vids-from-community"
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
         },
         {
-            "name": "Associate Insights App Template",
-            "url": "https://docs.microsoft.com/en-us/microsoftteams/platform/samples/app-templates?WT.mc_id=-github-rogerman#associate-insights"
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
         }
       ]
-    }
+    },
+    {
+      "name": "sample-microsoftgraph-intune-powershell",
+      "reponame": "powershell-intune-samples",
+      "source": "microsoft",
+      "title": "Microsoft Graph Change Notifications Sample for ASP.NET Core",
+      "shortDescription": "PowerShell sample scripts which show how to access Intune service resources. They demonstrate this by making HTTPS RESTful API requests to the Microsoft Graph API from PowerShell.",
+      "url": "https://github.com/microsoftgraph/powershell-intune-samples",
+      "longDescription": [
+        "PowerShell sample scripts which show how to access Intune service resources. They demonstrate this by making HTTPS RESTful API requests to the Microsoft Graph API from PowerShell.",
+        "These samples demonstrate typical Intune administrator or Microsoft partner actions for managing Intune resources."
+      ],
+      "creationDateTime": "2017-04-04",
+      "updateDateTime": "2020-03-09",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/microsoftgraph/aspnetcore-webhooks-sample/main/images/user-inbox-notifications.png",
+          "alt": "Use delegated authentication to subscribe to a user's inbox"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Intune Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/api/resources/intune-graph-overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    }    
 ]
