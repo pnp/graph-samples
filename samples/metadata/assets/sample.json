@@ -75,7 +75,7 @@
       "name": "sample-microsoftgraph-intune-powershell",
       "reponame": "powershell-intune-samples",
       "source": "microsoft",
-      "title": "Microsoft Graph Change Notifications Sample for ASP.NET Core",
+      "title": "Intune Microsoft Graph Samples",
       "shortDescription": "PowerShell sample scripts which show how to access Intune service resources. They demonstrate this by making HTTPS RESTful API requests to the Microsoft Graph API from PowerShell.",
       "url": "https://github.com/microsoftgraph/powershell-intune-samples",
       "longDescription": [
@@ -94,7 +94,7 @@
           "type": "image",
           "order": 100,
           "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
-          "alt": "Use delegated authentication to subscribe to a user's inbox"
+          "alt": "No preview available."
         }
       ],
       "authors": [
@@ -111,6 +111,204 @@
           "name": "Intune Graph Documentation",
           "url": "https://docs.microsoft.com/en-us/graph/api/resources/intune-graph-overview?view=graph-rest-1.0"
         },
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    },
+    {
+      "name": "sample-microsoftgraph-aspnet-snippets-sample",
+      "reponame": "aspnet-snippets-sample",
+      "source": "microsoft",
+      "title": "Microsoft Graph snippets sample for ASP.NET Core 3.1",
+      "shortDescription": "This sample project provides a repository of code snippets that use the Microsoft Graph to perform common tasks, such as sending email, managing groups, and other activities from within an ASP.NET Core MVC app.",
+      "url": "https://github.com/microsoftgraph/aspnet-snippets-sample",
+      "longDescription": [
+        "This sample project provides a repository of code snippets that use the Microsoft Graph to perform common tasks, such as sending email, managing groups, and other activities from within an ASP.NET Core MVC app. It uses the Microsoft Graph .NET Client SDK to work with data returned by the Microsoft Graph.",
+        "The sample uses the Microsoft Identity Web library for authentication. This library provides features for working with the Microsoft identity platform (v2.0), which enables developers to write a single auth flow that handles authentication for both work or school (Azure Active Directory) and personal (Microsoft) accounts.",
+        "In addition, the sample shows how to request tokens incrementally. Users consent to an initial set of permission scopes during sign in, but can consent to other scopes later. In the case of this sample, any valid user can sign in, but admininstrators can later consent to the admin-level scopes required for certain operations."
+      ],
+      "creationDateTime": "2016-08-04",
+      "updateDateTime": "2021-10-23",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
+          "alt": "No preview available."
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    },
+    {
+      "name": "sample-microsoftgraph-security-api-samples",
+      "reponame": "security-api-solutions",
+      "source": "microsoft",
+      "title": "Microsoft Graph Security API samples",
+      "shortDescription": "This repository is a starting point for all Graph Security application developers to share content and sample code in different languages for Graph Security application integration scenarios. ",
+      "url": "https://github.com/microsoftgraph/security-api-solutions",
+      "longDescription": [
+        "This repository is a starting point for all Graph Security application developers to share content and sample code in different languages for Graph Security application integration scenarios."
+      ],
+      "creationDateTime": "2018-09-14",
+      "updateDateTime": "2021-08-27",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
+          "alt": "No preview available."
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    },
+    {
+      "name": "sample-microsoftgraph-botframework-csharp-approvalbot-sample",
+      "reponame": "botframework-csharp-approvalbot-sample",
+      "source": "microsoft",
+      "title": "Approval Bot Sample",
+      "shortDescription": "A sample Bot that uses adaptive cards and the .NET Graph SDK to send actionable messages requesting approval to release files on OneDrive.",
+      "url": "https://github.com/microsoftgraph/botframework-csharp-approvalbot-sample",
+      "longDescription": [
+        "A sample Bot that uses adaptive cards and the .NET Graph SDK to send actionable messages requesting approval to release files on OneDrive."
+      ],
+      "creationDateTime": "2018-04-23",
+      "updateDateTime": "2021-08-27",
+      "products": [
+        "Microsoft Graph",
+        "Microsoft Teams"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/microsoftgraph/botframework-csharp-approvalbot-sample/master/readme-images/hello-bot.PNG",
+          "alt": "Discussion."
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
         {
           "name": "Microsoft Graph Documentation",
           "url": "https://docs.microsoft.com/en-us/graph/"
