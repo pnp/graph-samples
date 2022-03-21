@@ -93,7 +93,7 @@
         {
           "type": "image",
           "order": 100,
-          "url": "https://raw.githubusercontent.com/microsoftgraph/aspnetcore-webhooks-sample/main/images/user-inbox-notifications.png",
+          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
           "alt": "Use delegated authentication to subscribe to a user's inbox"
         }
       ],
