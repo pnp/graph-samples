@@ -286,7 +286,8 @@
       "creationDateTime": "2017-01-05",
       "updateDateTime": "2021-01-14",
       "products": [
-        "Microsoft Graph"
+        "Microsoft Graph",
+        "Office"
       ],
       "metadata": [
       ],
@@ -294,8 +295,8 @@
         {
           "type": "image",
           "order": 100,
-          "url": "https://raw.githubusercontent.com/OfficeDev/Office-Add-in-samples/main/Samples/auth/Office-Add-in-Microsoft-Graph-React/ReadmeImages/CertificateWarningPrompt.png",
-          "alt": "Warning"
+          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
+          "alt": "No preview available"
         }
       ],
       "authors": [
@@ -304,7 +305,7 @@
           "company": "Microsoft",
           "pictureUrl": "https://github.com/microsoft.png",
           "name": "Microsoft",
-          "twitter": ""
+          "twitter": "Microsoft365Dev"
         }
       ],
       "references": [
