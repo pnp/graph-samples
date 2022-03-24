@@ -274,6 +274,75 @@
       ]
     },
     {
+      "name": "office-add-in-auth-graph-react",
+      "reponame": "Office-Add-in-samples",
+      "source": "microsoft",
+      "title": "Office Add-in Microsoft Graph React",
+      "shortDescription": "Office Add-in, as a single-page application (SPA) with no backend, that connects to Microsoft Graph, finds the first three workbooks stored in OneDrive for Business, fetches their filenames, and inserts the names into an Office document using Office.js.",
+      "url": "https://github.com/OfficeDev/Office-Add-in-samples/tree/main/Samples/auth/Office-Add-in-Microsoft-Graph-React",
+      "longDescription": [
+        "Learn how to build a Microsoft Office Add-in, as a single-page application (SPA) with no backend, that connects to Microsoft Graph, finds the first three workbooks stored in OneDrive for Business, fetches their filenames, and inserts the names into an Office document using Office.js."
+      ],
+      "creationDateTime": "2017-01-05",
+      "updateDateTime": "2021-01-14",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/OfficeDev/Office-Add-in-samples/main/Samples/auth/Office-Add-in-Microsoft-Graph-React/ReadmeImages/CertificateWarningPrompt.png",
+          "alt": "Warning"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Office Add-ins Documentation",
+          "url": "https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    },
+    {
       "name": "sample-microsoftgraph-botframework-csharp-approvalbot-sample",
       "reponame": "botframework-csharp-approvalbot-sample",
       "source": "microsoft",
@@ -338,5 +407,5 @@
           "url": "https://aka.ms/m365pnp"
         }
       ]
-    }    
+    }     
 ]
