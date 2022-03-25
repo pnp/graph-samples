@@ -344,6 +344,141 @@
       ]
     },
     {
+      "name": "Office-Add-in-NodeJS-SSO",
+      "reponame": "Office-Add-in-samples",
+      "source": "microsoft",
+      "title": "Office Add-in NodeJS SSO",
+      "shortDescription": "The getAccessToken API in Office.js enables users who are signed into Office to get access to an AAD-protected add-in and to Microsoft Graph without needing to sign-in again.",
+      "url": "https://github.com/OfficeDev/Office-Add-in-samples/tree/main/Samples/auth/Office-Add-in-Microsoft-Graph-React",
+      "longDescription": [
+        "The getAccessToken API in Office.js enables users who are signed into Office to get access to an AAD-protected add-in and to Microsoft Graph without needing to sign-in again."
+      ],
+      "creationDateTime": "2017-05-10",
+      "updateDateTime": "2020-08-11",
+      "products": [
+        "Microsoft Graph",
+        "Office"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
+          "alt": "No preview available"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": "Microsoft365Dev"
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Office Add-ins Documentation",
+          "url": "https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    },
+    {
+      "name": "python-security-rest-sample",
+      "reponame": "microsoftgraph",
+      "source": "microsoft",
+      "title": "Python Web App demo using Microsoft Intelligent Security Graph",
+      "shortDescription": "This sample consists of a Python web application that invokes common Microsoft Graph security API calls.",
+      "url": "https://github.com/microsoftgraph/python-security-rest-sample",
+      "longDescription": [
+        "Microsoft Graph provides REST APIs for integrating with Intelligent Security Graph providers that enable your app to retrieve alerts, update alert lifecycle properties, and easily email an alert notification. This sample consists of a Python web application that invokes common Microsoft Graph security API calls, using the Requests HTTP library to call these Microsoft Graph APIs: Get Alerts, get user profile, Create a webhook subscription"
+      ],
+      "creationDateTime": "2018-05-04",
+      "updateDateTime": "2021-08-27",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/microsoftgraph/python-security-rest-sample/master/static/images/updateAlerts.PNG",
+          "alt": "Update alert"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    },
+    {
       "name": "sample-microsoftgraph-botframework-csharp-approvalbot-sample",
       "reponame": "botframework-csharp-approvalbot-sample",
       "source": "microsoft",
@@ -408,5 +543,496 @@
           "url": "https://aka.ms/m365pnp"
         }
       ]
-    }     
+    },
+    {
+      "name": "consoleapp-deltaquery-dotnet-sample",
+      "reponame": "microsoftgraph",
+      "source": "microsoft",
+      "title": "Microsoft Graph delta query sample",
+      "shortDescription": "This console application demonstrates how to make delta queries to Microsoft Graph, allowing applications to request only changed entities within a target resource. ",
+      "url": "https://github.com/microsoftgraph/botframework-csharp-approvalbot-sample",
+      "longDescription": [
+        "This console application demonstrates how to make delta queries to Microsoft Graph, allowing applications to request only changed entities within a target resource. This sample monitors changes to the mail folders in a user's mailbox."
+      ],
+      "creationDateTime": "2017-05-25",
+      "updateDateTime": "2021-08-27",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
+          "alt": "No preview available."
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    },
+    {
+      "name": "aspnetcore-connect-sample",
+      "reponame": "microsoftgraph",
+      "source": "microsoft",
+      "title": "Microsoft Graph Connect Sample for ASP.NET Core 3.1",
+      "shortDescription": "Use ASP.NET Core 3.1 MVC to connect to Microsoft Graph using the delegated permissions flow.",
+      "url": "https://github.com/microsoftgraph/aspnetcore-connect-sample",
+      "longDescription": [
+        "This console application demonstrates how to make delta queries to Microsoft Graph, allowing applications to request only changed entities within a target resource. This sample monitors changes to the mail folders in a user's mailbox."
+      ],
+      "creationDateTime": "2017-06-08",
+      "updateDateTime": "2021-08-27",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://github.com/microsoftgraph/aspnetcore-connect-sample/blob/main/readme-images/Page1.PNG",
+          "alt": "Page 1"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Other Microsoft Graph Connect samples",
+          "url": "https://github.com/MicrosoftGraph?q=connect"
+        },
+        {
+          "name": "Microsoft Graph Webhooks Sample for ASP.NET Core",
+          "url": "https://github.com/microsoftgraph/aspnetcore-webhooks-sample"
+        },
+        {
+          "name": "Microsoft Graph Connect Sample for ASP.NET 4.6",
+          "url": "https://github.com/microsoftgraph/aspnet-connect-sample"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    },
+    {
+      "name": "aspnet-security-api-sample",
+      "reponame": "microsoftgraph",
+      "source": "microsoft",
+      "title": "Microsoft Graph Security API Sample for ASP.NET 4.6 (REST)",
+      "shortDescription": "There are three sample projects to get you started using the Microsoft Graph Security API.",
+      "url": "https://github.com/microsoftgraph/aspnetcore-connect-sample",
+      "longDescription": [
+        "Sample project V1.0 creates a very basic web User Interface (aka UI) that demonstrates using Microsoft Graph Security API. Sample project V2.0 creates an Advanced version of the V1.0 UI, including a 'Dashboard ribbon' that displays a statistical view of alerts (e.g. Users at risk, i.e. with the most severity alerts, etc.), that demonstrates using Microsoft Graph Security API. Sample project V3.0 creates a more Advanced version of the V2.0 UI, which uses an angular server and can be directly used as a tool for investigation purposes by analysts, It demonstrates using Microsoft Graph Security API."
+      ],
+      "creationDateTime": "2018-06-04",
+      "updateDateTime": "2021-08-27",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
+          "alt": "No preview available."
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Other Microsoft Graph Connect samples",
+          "url": "https://github.com/MicrosoftGraph?q=connect"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    },
+    {
+      "name": "nodejs-webhooks-sample",
+      "reponame": "microsoftgraph",
+      "source": "microsoft",
+      "title": "Microsoft Graph Webhooks Sample for Node.js",
+      "shortDescription": "This sample NodeJS web application shows how to subscribe for change notifications as well as how to validate and decrypt change notifications with resource data when supported by the resource.",
+      "url": "https://github.com/microsoftgraph/aspnetcore-connect-sample",
+      "longDescription": [
+        "Subscribe for Microsoft Graph change notifications to be notified when your user's data changes, so you don't have to poll for changes. This sample NodeJS web application shows how to subscribe for change notifications as well as how to validate and decrypt change notifications with resource data when supported by the resource."
+      ],
+      "creationDateTime": "2016-09-03",
+      "updateDateTime": "2021-08-27",
+      "products": [
+        "Microsoft Graph", "Microsoft Teams"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://github.com/microsoftgraph/nodejs-webhooks-sample/blob/main/images/teams-channel-notifications.png",
+          "alt": "Teams Channel notification"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Other Microsoft Graph Connect samples",
+          "url": "https://github.com/MicrosoftGraph?q=connect"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    },
+    {
+      "name": "MS-Graph-Data-Connect",
+      "reponame": "OfficeDev",
+      "source": "microsoft",
+      "title": "Microsoft Graph data connect",
+      "shortDescription": "Using Office 365 data with Azure analytics to build intelligent applications",
+      "url": "https://github.com/OfficeDev/MS-Graph-Data-Connect",
+      "longDescription": [
+        "Microsoft Graph data connect brings Office 365 data and Azure resources to independent software vendors (ISVs). This system enables ISVs to build intelligent applications with Microsoft’s most valuable data and best development tools. Office 365 customers will gain innovative or industry-specific applications that enhance their productivity while keeping full control over their data."
+      ],
+      "creationDateTime": "2018-06-02",
+      "updateDateTime": "2021-05-1",
+      "products": [
+        "Microsoft Graph", "Microsoft 365"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
+          "alt": "No preview available."
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Approve a data access request",
+          "url": "https://github.com/OfficeDev/MS-Graph-Data-Connect/wiki/"
+        },
+        {
+          "name": "Manage ADF piplines",
+          "url": "https://github.com/OfficeDev/MS-Graph-Data-Connect/wiki/Azure-Data-Factory-Quick-Links"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    },
+    {
+      "name": "dotnet-aad-query-sample",
+      "reponame": "microsoftgraph",
+      "source": "microsoft",
+      "title": "Explore advanced Microsoft Graph Query Capabilities for Directory Objects (AAD) with .NET SDK",
+      "shortDescription": "This sample demonstrates a .NET Desktop (WPF) application showcasing advanced Microsoft Graph Query Capabilities for Directory Objects with .NET",
+      "url": "https://github.com/microsoftgraph/dotnet-aad-query-sample",
+      "longDescription": [
+        "This sample helps you explore the Microsoft Graph's new query capabilities of the identity APIs using the Microsoft Graph SDK to query Azure AD. The main code is in GraphDataService.cs file, where every request pass trough AddAdvancedOptions function adding the required $count=true QueryString parameter and ConsistencyLevel=eventual header."
+      ],
+      "creationDateTime": "2020-09-22",
+      "updateDateTime": "2021-04-24",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
+          "alt": "No preview available."
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Approve a data access request",
+          "url": "https://github.com/OfficeDev/MS-Graph-Data-Connect/wiki/"
+        },
+        {
+          "name": "Manage ADF piplines",
+          "url": "https://github.com/OfficeDev/MS-Graph-Data-Connect/wiki/Azure-Data-Factory-Quick-Links"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    },
+    {
+      "name": "java-spring-webhooks-sample",
+      "reponame": "microsoftgraph",
+      "source": "microsoft",
+      "title": "Microsoft Graph Change Notifications with Resource Data",
+      "shortDescription": "Create Microsoft Graph webhook subscriptions for a Java Spring app, so that it can receive notifications of changes for any resource. This sample also supports receiving change notifications with data, validating and decrypting the payload.",
+      "url": "https://github.com/microsoftgraph/dotnet-aad-query-sample",
+      "longDescription": [
+        "Create Microsoft Graph webhook subscriptions for a Java Spring app, so that it can receive notifications of changes for any resource. This sample also supports receiving change notifications with data, validating and decrypting the payload."
+      ],
+      "creationDateTime": "2020-03-15",
+      "updateDateTime": "2020-03-27",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://github.com/microsoftgraph/java-spring-webhooks-sample/blob/main/images/teams-channel-notifications.png",
+          "alt": "Teams Channel notifications"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    }                             
 ]
