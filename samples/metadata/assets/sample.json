@@ -419,7 +419,7 @@
       "source": "microsoft",
       "title": "Python Web App demo using Microsoft Intelligent Security Graph",
       "shortDescription": "This sample consists of a Python web application that invokes common Microsoft Graph security API calls.",
-      "url": "https://github.com/microsoftgraph/botframework-csharp-approvalbot-sample",
+      "url": "https://github.com/microsoftgraph/python-security-rest-sample",
       "longDescription": [
         "Microsoft Graph provides REST APIs for integrating with Intelligent Security Graph providers that enable your app to retrieve alerts, update alert lifecycle properties, and easily email an alert notification. This sample consists of a Python web application that invokes common Microsoft Graph security API calls, using the Requests HTTP library to call these Microsoft Graph APIs: Get Alerts, get user profile, Create a webhook subscription"
       ],
@@ -608,5 +608,82 @@
           "url": "https://aka.ms/m365pnp"
         }
       ]
-    }        
+    },
+    {
+      "name": "aspnetcore-connect-sample",
+      "reponame": "microsoftgraph",
+      "source": "microsoft",
+      "title": "Microsoft Graph Connect Sample for ASP.NET Core 3.1",
+      "shortDescription": "Use ASP.NET Core 3.1 MVC to connect to Microsoft Graph using the delegated permissions flow.",
+      "url": "https://github.com/microsoftgraph/aspnetcore-connect-sample",
+      "longDescription": [
+        "This console application demonstrates how to make delta queries to Microsoft Graph, allowing applications to request only changed entities within a target resource. This sample monitors changes to the mail folders in a user's mailbox."
+      ],
+      "creationDateTime": "2017-06-08",
+      "updateDateTime": "2021-08-27",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://github.com/microsoftgraph/aspnetcore-connect-sample/blob/main/readme-images/Page1.PNG",
+          "alt": "Page 1"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Other Microsoft Graph Connect samples",
+          "url": "https://github.com/MicrosoftGraph?q=connect"
+        },
+        {
+          "name": "Microsoft Graph Webhooks Sample for ASP.NET Core",
+          "url": "https://github.com/microsoftgraph/aspnetcore-webhooks-sample"
+        },
+        {
+          "name": "Microsoft Graph Connect Sample for ASP.NET 4.6",
+          "url": "https://github.com/microsoftgraph/aspnet-connect-sample"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    }         
 ]
