@@ -896,5 +896,78 @@
           "url": "https://aka.ms/m365pnp"
         }
       ]
-    }                         
+    },
+    {
+      "name": "dotnet-aad-query-sample",
+      "reponame": "microsoftgraph",
+      "source": "microsoft",
+      "title": "Explore advanced Microsoft Graph Query Capabilities for Directory Objects (AAD) with .NET SDK",
+      "shortDescription": "This sample demonstrates a .NET Desktop (WPF) application showcasing advanced Microsoft Graph Query Capabilities for Directory Objects with .NET",
+      "url": "https://github.com/microsoftgraph/dotnet-aad-query-sample",
+      "longDescription": [
+        "This sample helps you explore the Microsoft Graph's new query capabilities of the identity APIs using the Microsoft Graph SDK to query Azure AD. The main code is in GraphDataService.cs file, where every request pass trough AddAdvancedOptions function adding the required $count=true QueryString parameter and ConsistencyLevel=eventual header."
+      ],
+      "creationDateTime": "2020-09-22",
+      "updateDateTime": "2021-04-24",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
+          "alt": "No preview available."
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Approve a data access request",
+          "url": "https://github.com/OfficeDev/MS-Graph-Data-Connect/wiki/"
+        },
+        {
+          "name": "Manage ADF piplines",
+          "url": "https://github.com/OfficeDev/MS-Graph-Data-Connect/wiki/Azure-Data-Factory-Quick-Links"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    }                           
 ]
