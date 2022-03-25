@@ -344,6 +344,141 @@
       ]
     },
     {
+      "name": "Office-Add-in-NodeJS-SSO",
+      "reponame": "Office-Add-in-samples",
+      "source": "microsoft",
+      "title": "Office Add-in NodeJS SSO",
+      "shortDescription": "The getAccessToken API in Office.js enables users who are signed into Office to get access to an AAD-protected add-in and to Microsoft Graph without needing to sign-in again.",
+      "url": "https://github.com/OfficeDev/Office-Add-in-samples/tree/main/Samples/auth/Office-Add-in-Microsoft-Graph-React",
+      "longDescription": [
+        "The getAccessToken API in Office.js enables users who are signed into Office to get access to an AAD-protected add-in and to Microsoft Graph without needing to sign-in again."
+      ],
+      "creationDateTime": "2017-05-10",
+      "updateDateTime": "2020-08-11",
+      "products": [
+        "Microsoft Graph",
+        "Office"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
+          "alt": "No preview available"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": "Microsoft365Dev"
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Office Add-ins Documentation",
+          "url": "https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    },
+    {
+      "name": "python-security-rest-sample",
+      "reponame": "microsoftgraph",
+      "source": "microsoft",
+      "title": "Python Web App demo using Microsoft Intelligent Security Graph",
+      "shortDescription": "This sample consists of a Python web application that invokes common Microsoft Graph security API calls.",
+      "url": "https://github.com/microsoftgraph/botframework-csharp-approvalbot-sample",
+      "longDescription": [
+        "Microsoft Graph provides REST APIs for integrating with Intelligent Security Graph providers that enable your app to retrieve alerts, update alert lifecycle properties, and easily email an alert notification. This sample consists of a Python web application that invokes common Microsoft Graph security API calls, using the Requests HTTP library to call these Microsoft Graph APIs: Get Alerts, get user profile, Create a webhook subscription"
+      ],
+      "creationDateTime": "2018-05-04",
+      "updateDateTime": "2021-08-27",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/microsoftgraph/python-security-rest-sample/master/static/images/updateAlerts.PNG",
+          "alt": "Update alert"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    },
+    {
       "name": "sample-microsoftgraph-botframework-csharp-approvalbot-sample",
       "reponame": "botframework-csharp-approvalbot-sample",
       "source": "microsoft",
@@ -408,5 +543,70 @@
           "url": "https://aka.ms/m365pnp"
         }
       ]
-    }     
+    },
+    {
+      "name": "consoleapp-deltaquery-dotnet-sample",
+      "reponame": "microsoftgraph",
+      "source": "microsoft",
+      "title": "Microsoft Graph delta query sample",
+      "shortDescription": "This console application demonstrates how to make delta queries to Microsoft Graph, allowing applications to request only changed entities within a target resource. ",
+      "url": "https://github.com/microsoftgraph/botframework-csharp-approvalbot-sample",
+      "longDescription": [
+        "This console application demonstrates how to make delta queries to Microsoft Graph, allowing applications to request only changed entities within a target resource. This sample monitors changes to the mail folders in a user's mailbox."
+      ],
+      "creationDateTime": "2017-05-25",
+      "updateDateTime": "2021-08-27",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
+          "alt": "No preview available."
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    }        
 ]
