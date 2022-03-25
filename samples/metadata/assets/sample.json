@@ -823,5 +823,78 @@
           "url": "https://aka.ms/m365pnp"
         }
       ]
-    }                     
+    },
+    {
+      "name": "MS-Graph-Data-Connect",
+      "reponame": "OfficeDev",
+      "source": "microsoft",
+      "title": "Microsoft Graph data connect",
+      "shortDescription": "Using Office 365 data with Azure analytics to build intelligent applications",
+      "url": "https://github.com/OfficeDev/MS-Graph-Data-Connect",
+      "longDescription": [
+        "Microsoft Graph data connect brings Office 365 data and Azure resources to independent software vendors (ISVs). This system enables ISVs to build intelligent applications with Microsoft’s most valuable data and best development tools. Office 365 customers will gain innovative or industry-specific applications that enhance their productivity while keeping full control over their data."
+      ],
+      "creationDateTime": "2018-06-02",
+      "updateDateTime": "2021-05-1",
+      "products": [
+        "Microsoft Graph", "Microsoft 365"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
+          "alt": "No preview available."
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Approve a data access request",
+          "url": "https://github.com/OfficeDev/MS-Graph-Data-Connect/wiki/"
+        },
+        {
+          "name": "Manage ADF piplines",
+          "url": "https://github.com/OfficeDev/MS-Graph-Data-Connect/wiki/Azure-Data-Factory-Quick-Links"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    }                         
 ]
