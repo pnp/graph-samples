@@ -754,5 +754,74 @@
           "url": "https://aka.ms/m365pnp"
         }
       ]
-    }              
+    },
+    {
+      "name": "nodejs-webhooks-sample",
+      "reponame": "microsoftgraph",
+      "source": "microsoft",
+      "title": "Microsoft Graph Webhooks Sample for Node.js",
+      "shortDescription": "This sample NodeJS web application shows how to subscribe for change notifications as well as how to validate and decrypt change notifications with resource data when supported by the resource.",
+      "url": "https://github.com/microsoftgraph/aspnetcore-connect-sample",
+      "longDescription": [
+        "Subscribe for Microsoft Graph change notifications to be notified when your user's data changes, so you don't have to poll for changes. This sample NodeJS web application shows how to subscribe for change notifications as well as how to validate and decrypt change notifications with resource data when supported by the resource."
+      ],
+      "creationDateTime": "2016-09-03",
+      "updateDateTime": "2021-08-27",
+      "products": [
+        "Microsoft Graph", "Microsoft Teams"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://github.com/microsoftgraph/nodejs-webhooks-sample/blob/main/images/teams-channel-notifications.png",
+          "alt": "Teams Channel notification"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Other Microsoft Graph Connect samples",
+          "url": "https://github.com/MicrosoftGraph?q=connect"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    }                     
 ]
