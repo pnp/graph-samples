@@ -969,5 +969,70 @@
           "url": "https://aka.ms/m365pnp"
         }
       ]
-    }                           
+    },
+    {
+      "name": "java-spring-webhooks-sample",
+      "reponame": "microsoftgraph",
+      "source": "microsoft",
+      "title": "Microsoft Graph Change Notifications with Resource Data",
+      "shortDescription": "Create Microsoft Graph webhook subscriptions for a Java Spring app, so that it can receive notifications of changes for any resource. This sample also supports receiving change notifications with data, validating and decrypting the payload.",
+      "url": "https://github.com/microsoftgraph/dotnet-aad-query-sample",
+      "longDescription": [
+        "Create Microsoft Graph webhook subscriptions for a Java Spring app, so that it can receive notifications of changes for any resource. This sample also supports receiving change notifications with data, validating and decrypting the payload."
+      ],
+      "creationDateTime": "2020-03-15",
+      "updateDateTime": "2020-03-27",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://github.com/microsoftgraph/java-spring-webhooks-sample/blob/main/images/teams-channel-notifications.png",
+          "alt": "Teams Channel notifications"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    }                             
 ]
