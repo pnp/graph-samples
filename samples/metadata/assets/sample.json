@@ -685,5 +685,74 @@
           "url": "https://aka.ms/m365pnp"
         }
       ]
-    }         
+    },
+    {
+      "name": "aspnet-security-api-sample",
+      "reponame": "microsoftgraph",
+      "source": "microsoft",
+      "title": "Microsoft Graph Security API Sample for ASP.NET 4.6 (REST)",
+      "shortDescription": "There are three sample projects to get you started using the Microsoft Graph Security API.",
+      "url": "https://github.com/microsoftgraph/aspnetcore-connect-sample",
+      "longDescription": [
+        "Sample project V1.0 creates a very basic web User Interface (aka UI) that demonstrates using Microsoft Graph Security API. Sample project V2.0 creates an Advanced version of the V1.0 UI, including a 'Dashboard ribbon' that displays a statistical view of alerts (e.g. Users at risk, i.e. with the most severity alerts, etc.), that demonstrates using Microsoft Graph Security API. Sample project V3.0 creates a more Advanced version of the V2.0 UI, which uses an angular server and can be directly used as a tool for investigation purposes by analysts, It demonstrates using Microsoft Graph Security API."
+      ],
+      "creationDateTime": "2018-06-04",
+      "updateDateTime": "2021-08-27",
+      "products": [
+        "Microsoft Graph"
+      ],
+      "metadata": [
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
+          "alt": "No preview available."
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "microsoft",
+          "company": "Microsoft",
+          "pictureUrl": "https://github.com/microsoft.png",
+          "name": "Microsoft",
+          "twitter": ""
+        }
+      ],
+      "references": [
+        {
+          "name": "Microsoft Graph Documentation",
+          "url": "https://docs.microsoft.com/en-us/graph/"
+        },
+        {
+          "name": "Other Microsoft Graph Connect samples",
+          "url": "https://github.com/MicrosoftGraph?q=connect"
+        },
+        {
+          "name": "Graph Explorer",
+          "url": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+        },
+        {
+          "name": "Microsoft Graph API reference",
+          "url": "https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0"
+        },
+        {
+          "name": "Microsoft Graph Questions",
+          "url": "https://docs.microsoft.com/en-us/answers/products/graph"
+        },        
+        {
+          "name": "Microsoft 365 Developer YouTube channel",
+          "url": "https://aka.ms/m365devyoutube"
+        },
+        {
+          "name": "Microsoft 365 Platform Community YouTube channel",
+          "url": "https://aka.ms/m365/videos"
+        },
+        {
+          "name": "Microsoft 365 Platform Community",
+          "url": "https://aka.ms/m365pnp"
+        }
+      ]
+    }              
 ]
