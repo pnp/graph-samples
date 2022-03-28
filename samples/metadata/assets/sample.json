@@ -898,8 +898,8 @@
       ]
     },
     {
-      "name": "dotnet-aad-query-sample",
-      "reponame": "microsoftgraph",
+      "name": "microsoft-graph-dotnet-aad-query-sample",
+      "reponame": "dotnet-aad-query-sample",
       "source": "microsoft",
       "title": "Explore advanced Microsoft Graph Query Capabilities for Directory Objects (AAD) with .NET SDK",
       "shortDescription": "This sample demonstrates a .NET Desktop (WPF) application showcasing advanced Microsoft Graph Query Capabilities for Directory Objects with .NET",
@@ -918,7 +918,7 @@
         {
           "type": "image",
           "order": 100,
-          "url": "https://raw.githubusercontent.com/pnp/graph-samples/main/samples/no-preview-graph.png",
+          "url": "https://raw.githubusercontent.com/microsoftgraph/dotnet-aad-query-sample/main/docs/app1.png",
           "alt": "No preview available."
         }
       ],
@@ -976,7 +976,7 @@
       "source": "microsoft",
       "title": "Microsoft Graph Change Notifications with Resource Data",
       "shortDescription": "Create Microsoft Graph webhook subscriptions for a Java Spring app, so that it can receive notifications of changes for any resource. This sample also supports receiving change notifications with data, validating and decrypting the payload.",
-      "url": "https://github.com/microsoftgraph/dotnet-aad-query-sample",
+      "url": "https://github.com/microsoftgraph/java-spring-webhooks-sample",
       "longDescription": [
         "Create Microsoft Graph webhook subscriptions for a Java Spring app, so that it can receive notifications of changes for any resource. This sample also supports receiving change notifications with data, validating and decrypting the payload."
       ],
@@ -991,8 +991,14 @@
         {
           "type": "image",
           "order": 100,
-          "url": "https://github.com/microsoftgraph/java-spring-webhooks-sample/blob/main/images/teams-channel-notifications.png",
+          "url": "https://raw.githubusercontent.com/microsoftgraph/java-spring-webhooks-sample/main/images/teams-channel-notifications.png",
           "alt": "Teams Channel notifications"
+        },
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/microsoftgraph/java-spring-webhooks-sample/main/images/user-inbox-notifications.png",
+          "alt": "Use delegated authentication to subscribe to a user's inbox"
         }
       ],
       "authors": [
